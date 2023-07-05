@@ -18,7 +18,9 @@ public class Before implements FrameWork_1 {
 		
 	 driver=new FirefoxDriver();
 	 driver.manage().window().maximize();
+	 //for lunching browser
 	 driver.get("https://www.facebook.com/");
+	 //for enter url
 	 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}
 @AfterMethod
